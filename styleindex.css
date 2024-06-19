@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(202, 251, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+h2{
+    padding-top: 1%;
+    text-align: center;
+}
+
+.bar{
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(246, 246, 228);
+    position: absolute;
+    top: 0%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    display: flex;
+    flex-direction: column;
+    font-size: max(10px, 1vw);
+}
+.bar #avatar{
+    position: absolute;
+    top: 28%;
+    left: 4%;
+}
+.bar .name{
+    position: absolute;
+    top: 63%;
+    left: 18%;
+}
+
+.bar a{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.bar span{
+    padding-left: 4%;
+}
+
+
+
+.book{
+    margin-top: 3%;
+    margin-left: 21.5%;
+    display: flex;
+    position: relative;
+}
+
+.page{
+    margin-left: 0.5%;
+    width: 34.8vw;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(246, 246, 228);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.373);
+}
+
+.bind{
+    position: absolute;
+    width: 20vw;
+    height: 80vh;
+    top: 15%;
+    left: 47.5%;
+}
+
+.line{
+    width: 34.5vw;
+    height: 79.3vh;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h4{
+    position: absolute;
+    margin-top: 4%;
+    text-align: center;
+    text-decoration: underline;
+    top: 0%;
+    left: 54%;
+}
+
+.content{
+    position: absolute;
+    top: 17%;
+    left: 56%;
+    width: 25vw;
+    line-height: max(100%,3.5vh);
+    font-size: max(1vw, 10px);
+}
+button{
+    margin: 3%;
+    font-size: max(10px, 1vw);
+}
+.info{
+    margin-left: 10%;
+    margin-bottom: 8%;
+    width: 20vw;
+}
+
+.contact{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 20vw;
+    font-size: max(10px, 1vw);
+}
