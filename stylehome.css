@@ -28,7 +28,7 @@ h2{
 
 .coverpg{
     width: 35vw;
-    height: 80vh;
+/*     height: 80vh; */
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(246, 246, 228);
@@ -39,7 +39,7 @@ h2{
 #bind{
     position: absolute;
     width: 20vw;
-    height: 80vh;
+    height: 100%;
     right: 70%;
 }
 
@@ -71,7 +71,7 @@ h2{
     position: absolute;
     top: 0%;
     width: 34.7vw;
-    height: 79.3vh;
+/*     height: 79.3vh; */
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -79,7 +79,7 @@ h2{
     position: absolute;
     top: 0%;
     width: 34.5vw;
-    height: 78.8vh;
+/*     height: 78.8vh; */
     border: 2px solid black;
     border-radius: 5px;
 }
